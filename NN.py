@@ -116,7 +116,7 @@ if __name__ == "__main__":
     test_y = Yread('MNIST/t10k-labels-idx1-ubyte')
 
     lst_unitnum = [28*28,100,10]
-    a = 10
+    a = 1
     learning_rate = 0.1
 
     neuralnet = nn(lst_unitnum,a,learning_rate)
